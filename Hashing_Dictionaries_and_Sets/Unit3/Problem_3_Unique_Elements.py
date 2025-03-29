@@ -30,3 +30,13 @@ inventory1 = []
 inventory2 = ["Dress", "Skirt", "Coat"]
 print(exclusive_products(inventory1, inventory2))
 # Expected output: ([], ['COAT', 'DRESS', 'SKIRT'])
+
+
+# def uniqe_element(list1, list2):
+#     set1 = set(list1)
+#     set2 = set(list2)
+#     uniqe_in_list_1 = sorted(list(set1 - set2))
+#     uniqe_in_list_2 = sorted(list(set2 - set1))
+#     return uniqe_in_list_1, uniqe_in_list_2
+
+# print(uniqe_element([1, 2, 3, 4], [2, 3, 5, 6, 1]))
